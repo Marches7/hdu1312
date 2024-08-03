@@ -42,7 +42,7 @@ int main() {
 	int dx=0, dy=0;
 	while (cin >> Wx >> Wy&&Wx!=0&&Wy!=0) {
 		num = 1;
-		for (int i = 0; i < Wy; i++){
+		for (int i = 0; i < Wy; i++) {
 			for (int j = 0; j < Wx; j++) {
 				cin >> a[i][j];
 				if (a[i][j] == '@') {
