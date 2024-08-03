@@ -53,6 +53,5 @@ int main() {
 		}
 		bfs(dx, dy);
 	}
-
 	return 0;
 }
